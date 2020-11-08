@@ -1,0 +1,137 @@
+body{
+    background-image: linear-gradient( rgb(65, 63, 63), rgb(49, 46, 46), rgb(53, 52, 52));
+    color: white;
+    margin-bottom: 0;
+}
+
+/*--header section start--*/
+nav{
+    font-size: 110%;
+    font-weight: 500;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav #logo-img{
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+
+}
+
+#logo-img a:hover{
+    background-color: cyan;
+}
+
+nav .navbar{
+    list-style: none;
+    margin-right: 1rem;
+    margin-top: 1.5rem;
+}
+
+#logo-img{
+    border-radius: 30%;
+}
+
+nav .navbar li{
+    display: inline-block;
+    padding: 1rem;
+}
+
+.navbar li a:link,
+.navbar li a:visited{
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+.navbar li a:hover,
+.navbar li a:active{
+    color: cyan;
+    text-decoration: underline;
+}
+
+/*--Header section end--*/
+
+/*--Main section start--*/
+
+/* .section1{
+    background-image: url("me.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 10%;
+    border: 1px solid #000;
+}
+
+.info-div{
+    text-align: center;
+    color: white;
+    padding: 6%;
+}
+
+.hire-btn{
+    width: 8rem;
+    padding: 1rem 0 1rem 0;
+    background-color: cyan;
+    color: whitesmoke;
+    font-size: 110%;
+    border: none;
+    border-radius: 5px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    font-family: arial;
+
+}
+
+.hire-btn button a:hover{
+    background-color: white;
+    color: cyan;
+    cursor: pointer;
+} */
+/* main section start */
+
+.section1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+
+.text-section{
+    width: 30%;
+}
+hr{
+    width: 3rem;
+    height: .1rem;
+    border: none;
+    float: left;
+    background-color: cyan;
+}
+
+/*--Main section end--*/
+
+/*--Footer section--*/
+.footer-div{
+    display: flex;
+    color: rgb(184, 179, 179);
+    margin-top: 5rem;
+    border-top: 1px solid rgb(66, 61, 61);
+    padding: 1rem 1rem 0 1rem;
+    justify-content: space-between;
+}
+
+address{
+    line-height: 1.5rem;
+}
+
+address a{
+    text-decoration: none;
+    color: rgb(100, 199, 199);
+}
+
+#copyright{
+    margin-top: 7%;
+}
+

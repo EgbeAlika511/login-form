@@ -1,0 +1,57 @@
+button{
+    background-color: red;
+}
+
+
+
+.login{
+    background-color: indigo;
+    color: white;
+    border: none;
+}
+button{
+    background-color: green;
+    color:cyan;
+}
+
+
+
+.input-field{
+    margin: auto;
+    text-align: center;
+
+}
+
+#input, #button{
+    padding: 1rem;
+    text-align: center;
+}
+
+.input-field form{
+    margin-top: 20%;
+}
+
+.form{
+    background: url("view.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40%;
+    justify-content: center;
+    margin: 30%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+#input{
+    width: 50%;
+}
+
+#button{
+    border: none;
+    border-radius: .3rem;
+    width: 5rem;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: white;
+}
