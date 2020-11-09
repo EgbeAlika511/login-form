@@ -30,7 +30,7 @@ i{
 }
 
 
-input[type=text], input[type=password], #login-btn{
+input[type=text], input[type=password], input[type=submit]{
     box-sizing: border-box;
     padding: 10px;
     border: 1px solid #ccc;
@@ -43,11 +43,12 @@ input[type=checkbox]{
     margin: 4% 0;
 }
 
-#login-btn{
+#login-input{
     background-color: #37ac3a;
     color: white;
     border: none;
     cursor: pointer;
+    font-weight: bolder;
     
 }
 
